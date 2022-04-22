@@ -17,6 +17,12 @@ a {
     text-decoration: none;
 }
 
+button {
+    cursor: pointer;
+    color: var(--color-white);
+    border: none;
+}
+
 .purple {
     color: var(--color-purple-dark);
 }
