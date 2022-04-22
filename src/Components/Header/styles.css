@@ -1,0 +1,54 @@
+.main {
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.67) 0%, #1C1919 100%);
+    width: 100%;
+    padding: 15px 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.image-header {
+    width: 45px;
+    height: 45px;
+}
+
+.container-logo {
+    display: flex;
+    align-items: center;
+    font-family: 'Lobster', cursive;
+    font-size: 14px;
+}
+
+.container-logo h2 {
+    margin-left: 10px;
+}
+
+.list-buttons {
+    margin: 0 15px;
+    font-weight: 100;
+    font-size: 14px;
+}
+
+.buttons-container {
+    display: flex;
+    align-items: center;
+}
+
+.country-contact-container {
+    display: flex;
+    align-items: center;
+}
+
+.country-contact-container button {
+    background: linear-gradient(93.4deg, #8A13E8 0%, #8A00BB 100%);
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    color: var(--color-white);
+    padding: 10px 30px;
+    font-weight: bold;
+    cursor: pointer;
+    font-size: 14px;
+}
