@@ -8,6 +8,7 @@ function Routers() {
     <BrowserRouter>
       <Routes>
         <Route path="/" exact element={<Landing/>} />
+        <Route path="/:locale" element={<Landing/>} />
       </Routes>
     </BrowserRouter>
   );

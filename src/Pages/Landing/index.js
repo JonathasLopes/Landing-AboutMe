@@ -3,9 +3,9 @@ import Header from '../../Components/Header';
 import './styles.css';
 
 const Landing = () => {
-    return(
+    return (
         <div>
-            <Header/>
+            <Header />
         </div>
     );
 }

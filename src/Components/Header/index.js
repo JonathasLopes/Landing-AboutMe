@@ -2,9 +2,11 @@ import React, { useState } from 'react';
 import './styles.css';
 import imageLogo from '../../Assets/Images/img-1.png';
 import CountryPicker from '../CountryPicker';
+import { useTranslation } from 'react-i18next';
 
 const Header = () => {
     const [selected, setSelected] = useState(0);
+    const { t } = useTranslation();
 
     return (
         <div className='main'>
@@ -16,34 +18,34 @@ const Header = () => {
             <ul className='buttons-container'>
                 <li className='list-buttons purple'>
                     <button type="button" onClick={() => setSelected(0)} className={selected === 0 ? 'purple' : ''}>
-                        Sobre
+                        {t('about')}
                     </button>
                 </li>
                 <li className='list-buttons'>
                     <button type="button" onClick={() => setSelected(1)} className={selected === 1 ? 'purple' : ''}>
-                        Formação
+                        {t('graduate')}
                     </button>
                 </li>
                 <li className='list-buttons'>
                     <button type="button" onClick={() => setSelected(2)} className={selected === 2 ? 'purple' : ''}>
-                        Tecnologias
+                        {t('technologies')}
                     </button>
                 </li>
                 <li className='list-buttons'>
                     <button type="button" onClick={() => setSelected(3)} className={selected === 3 ? 'purple' : ''}>
-                        Projetos
+                        {t('projects')}
                     </button>
                 </li>
                 <li className='list-buttons'>
                     <button type="button" onClick={() => setSelected(4)} className={selected === 4 ? 'purple' : ''}>
-                        Certificações
+                        {t('certifications')}
                     </button>
                 </li>
             </ul>
 
             <div className='country-contact-container'>
                 <CountryPicker />
-                <button>Contato</button>
+                <button>{t('contact')}</button>
             </div>
         </div>
     );
