@@ -2,11 +2,9 @@ import React, { useState } from 'react';
 import './styles.css';
 import imageLogo from '../../Assets/Images/img-1.png';
 import CountryPicker from '../CountryPicker';
-import { useTranslation } from 'react-i18next';
 
-const Header = () => {
+const Header = ({t}) => {
     const [selected, setSelected] = useState(0);
-    const { t } = useTranslation();
 
     return (
         <div className='main'>
