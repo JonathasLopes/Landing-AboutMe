@@ -33,6 +33,11 @@
 .text-welcome {
     font-family: 'Lobster', cursive;
     font-size: 50px;
+    padding-right: 15px;
+    border-right: 2px solid rgba(255, 255, 255, .75);
+    white-space: nowrap;
+    overflow: hidden;
+    animation: TypingBar 1s steps(30) infinite normal, Typing 3s steps(30) 1.5s normal both;
 }
 
 /*Key Frame*/
@@ -50,5 +55,30 @@
     100% {
       width: 250px;
       height: 250px;
+    }
+}
+
+@keyframes TypingBar {
+    from {
+      border-right-color: rgba(255, 255, 255, .75);
+    }
+  
+    to {
+        border-right-color: transparent;
+    }
+}
+
+@keyframes Typing {
+    0% {
+        opacity: 0;
+        width: 0;
+    }
+
+    1% {
+        opacity: 1;
+    }
+  
+    100% {
+        width: 100%;
     }
 }

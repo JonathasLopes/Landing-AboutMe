@@ -5,11 +5,13 @@ import { CountryFlags } from '../../Utils/CountryFlags';
 import './styles.css';
 
 const CountryPicker = () => {
-    const [location, setLocation] = useState("br");
+    const url = window.location.pathname.substring(1);
+    const [location, setLocation] = useState(url !== "" ? url : "br");
     const { locale } = useContext(LocaleContext);
 
     function changeLocale(lang) {
         if (locale !== lang) {
+            window.location.href = "/"+lang;
             i18n.changeLanguage(lang);
         }
     }
