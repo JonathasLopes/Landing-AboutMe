@@ -8,7 +8,7 @@ const CountryPicker = () => {
 
     return (
         <div className='select_box'>
-            <button className="dropbtn" onClick={() => setShow(!show)} onBlur={() => setTimeout(() => setShow(false), 200)}>
+            <button className="dropbtn" onClick={() => setShow(!show)} onBlur={() => setTimeout(() => setShow(false), 400)}>
                 <img src={CountryFlags[CountryFlags.findIndex(x => x.value === url)].label} alt={CountryFlags[CountryFlags.findIndex(x => x.value === url)].value} className="img-country" />
             </button>
 
