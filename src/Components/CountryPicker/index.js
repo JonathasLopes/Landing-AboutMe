@@ -1,5 +1,4 @@
 import React, { useContext, useState } from 'react';
-import i18n from '../../i18n';
 import LocaleContext from '../../LocaleContext';
 import { CountryFlags } from '../../Utils/CountryFlags';
 import './styles.css';
@@ -12,7 +11,6 @@ const CountryPicker = () => {
     function changeLocale(lang) {
         if (locale !== lang) {
             window.location.href = "/"+lang;
-            i18n.changeLanguage(lang);
         }
     }
 

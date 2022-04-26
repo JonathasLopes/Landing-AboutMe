@@ -1,18 +1,18 @@
 export const CountryFlags = [
     {
         value: 'br',
-        label: String.fromCodePoint('0x1F1E7', '0x1F1F7')
+        label: '🇧🇷'
     },
     {
         value: 'en',
-        label: String.fromCodePoint('0x1F1FA', '0x1F1F8')
+        label: '🇺🇸'
     },
     {
         value: 'es',
-        label: String.fromCodePoint('0x1F1EA', '0x1F1F8')
+        label: '🇪🇸'
     },
     {
         value: 'it',
-        label: String.fromCodePoint('0x1F1EE', '0x1F1F9')
+        label: '🇮🇹'
     },
 ]
