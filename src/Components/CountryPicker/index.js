@@ -1,28 +1,28 @@
-import React, { useContext, useState } from 'react';
-import LocaleContext from '../../LocaleContext';
+import React, { useState } from 'react';
 import { CountryFlags } from '../../Utils/CountryFlags';
 import './styles.css';
 
 const CountryPicker = () => {
-    const url = window.location.pathname.substring(1);
-    const [location, setLocation] = useState(url !== "" ? url : "br");
-    const { locale } = useContext(LocaleContext);
-
-    function changeLocale(lang) {
-        if (locale !== lang) {
-            window.location.href = "/"+lang;
-        }
-    }
+    const [show, setShow] = useState(false);
+    const url = window.location.pathname === '/' ? '/br' : window.location.pathname;
 
     return (
         <div className='select_box'>
-            <select className='select' value={location} onChange={(e) => {changeLocale(e.target.value); setLocation(e.target.value)}}>
-                {CountryFlags.map((country, index) => {
-                    return (
-                        <option className='option' key={index} value={country.value}>{country.label}</option>
-                    );
-                })}
-            </select>
+            <button className="dropbtn" onClick={() => setShow(!show)} onBlur={() => setTimeout(() => setShow(false), 200)}>
+                <img src={CountryFlags[CountryFlags.findIndex(x => x.value === url)].label} alt={CountryFlags[CountryFlags.findIndex(x => x.value === url)].value} className="img-country" />
+            </button>
+
+            {show &&
+                <div className="select">
+                    {CountryFlags.map((country, index) => {
+                        return (
+                            <a className='option' key={index} href={country.value}>
+                                <img src={country.label} alt={country.value} className="img-country" />
+                            </a>
+                        );
+                    })}
+                </div>
+            }
         </div>
     )
 }
