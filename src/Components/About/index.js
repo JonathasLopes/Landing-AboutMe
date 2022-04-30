@@ -1,6 +1,10 @@
 import React from 'react';
 import './styles.css';
 
+import LogoGreen from '../../Assets/Images/Anhembi-green.png';
+import LogoWhite from '../../Assets/Images/anhembi-white.png';
+import LogoFatec from '../../Assets/Images/fatec.png';
+
 const About = ({ t }) => {
     return (
         <div className='about-container'>
@@ -10,6 +14,33 @@ const About = ({ t }) => {
             <p>{t("about3")}</p>
             <p>{t("about4")}</p>
             <p>{t("about5")}</p>
+            <h2 className='h2-second'>Formação</h2>
+            <div className='card-container'>
+                <div className='card'>
+                    <img src={LogoWhite} alt="logo" />
+                    <div className='infos-card'>
+                        <span className='title-card'>Ciências da Computação</span>
+                        <span className='subtitle-card'>Universidade Anhembi Morumbi</span>
+                        <span className='year-card'>2021</span>
+                    </div>
+                </div>
+                <div className='card card-middle'>
+                    <img src={LogoFatec} alt="logo" />
+                    <div className='infos-card'>
+                        <span className='title-card'>Análise e Desenvolvimento de Sistemas</span>
+                        <span className='subtitle-card'>Fatec Zona Leste</span>
+                        <span className='year-card'>2021</span>
+                    </div>
+                </div>
+                <div className='card'>
+                    <img src={LogoGreen} alt="logo" />
+                    <div className='infos-card'>
+                        <span className='title-card'>Ciências de Dados e Inteligência Artificial</span>
+                        <span className='subtitle-card'>Universidade Anhembi Morumbi</span>
+                        <span className='year-card'>Em Andamento - 2023</span>
+                    </div>
+                </div>
+            </div>
         </div>
     );
 }
