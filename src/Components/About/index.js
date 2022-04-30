@@ -19,7 +19,7 @@ const About = ({ t }) => {
                 <div className='card'>
                     <img src={LogoWhite} alt="logo" />
                     <div className='infos-card'>
-                        <span className='title-card'>Ciências da Computação</span>
+                        <span className='title-card'>{t("graduate1")}</span>
                         <span className='subtitle-card'>Universidade Anhembi Morumbi</span>
                         <span className='year-card'>2021</span>
                     </div>
@@ -27,7 +27,7 @@ const About = ({ t }) => {
                 <div className='card card-middle'>
                     <img src={LogoFatec} alt="logo" />
                     <div className='infos-card'>
-                        <span className='title-card'>Análise e Desenvolvimento de Sistemas</span>
+                        <span className='title-card'>{t("graduate2")}</span>
                         <span className='subtitle-card'>Fatec Zona Leste</span>
                         <span className='year-card'>2021</span>
                     </div>
@@ -35,9 +35,9 @@ const About = ({ t }) => {
                 <div className='card'>
                     <img src={LogoGreen} alt="logo" />
                     <div className='infos-card'>
-                        <span className='title-card'>Ciências de Dados e Inteligência Artificial</span>
+                        <span className='title-card'>{t("graduate3")}</span>
                         <span className='subtitle-card'>Universidade Anhembi Morumbi</span>
-                        <span className='year-card'>Em Andamento - 2023</span>
+                        <span className='year-card'>{t("inProgress")} - 2023</span>
                     </div>
                 </div>
             </div>

@@ -11,5 +11,9 @@
     "about2": "Tenho apenas 21 anos de idade, porém já sou tecnólogo em Análise e Desenvolvimento de Sistemas pela Faculdade de Tecnologia Fatec Zona Leste, e Bacharéu em Ciências da Computação pela Universidade Anhembi Morumbi. Atualmente, estou cursando minha pós-graduação em Ciências de Dados e Inteligência Artificial pela Universidade Anhembi Morumbi!",
     "about3": "Bom, quanto a minha carreira profissional, eu sou desenvolvedor Fullstack na FI Group, trabalho com .Net, React JS, SQL Server e Azure, porém minha paixão maior é com desenvolvimento mobile! Estou no mercado a 2 anos, e durante esta minha trajetória, trabalhei muito com desenvolvimento mobile utilizando React Native, e com desenvolvimento web frontend com React JS. Mas, hoje além de continuar trabalhando com estas tecnologias, venho estudando muito a linguagem Swift.",
     "about4": "Tenho alguns aplicativos e sites próprios e corporativos, desenvolvidos por mim, que hoje, estão nas lojas App Store e Play Store, ou na web! Além de todo este vasto conhecimento em programação, amo desenvolver designs de telas com o Figma, utilizando de conhecimentos UI/UX. Sem falar de toda a experiência que tenho com Banco de Dados relacionais e não relacionais.",
-    "about5": "Minha língua nativa é o português, porém, falo inglês em nível avançado, espanhol em nível intermedário e italiano em nível básico!"
+    "about5": "Minha língua nativa é o português, porém, falo inglês em nível avançado, espanhol em nível intermedário e italiano em nível básico!",
+    "graduate1": "Ciências da Computação",
+    "graduate2": "Análise e Desenvolvimento de Sistemas",
+    "graduate3": "Ciências de Dados e Inteligência Artificial",
+    "inProgress": "Em Andamento"
 }

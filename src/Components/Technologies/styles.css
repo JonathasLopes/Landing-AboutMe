@@ -1,0 +1,6 @@
+.tech-container {
+    background-color: var(--color-background-light);
+    height: 500px;
+    margin-top: -50px;
+    z-index: 10;
+}
