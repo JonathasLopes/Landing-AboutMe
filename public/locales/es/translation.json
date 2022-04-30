@@ -5,5 +5,11 @@
     "projects": "Proyectos",
     "certifications": "Certificaciones",
     "contact": "Contacto",
-    "welcome": "<Sea Bienvenido!>"
+    "welcome": "<Sea Bienvenido!>",
+    "about-me": "Sobre mi...",
+    "about1": "Encantado de conocerte, mi nombre es Jonathas, ¡pero puedes llamarme Jhow!",
+    "about2": "Tengo solo 21 años, pero ya soy tecnólogo en Análisis y Desarrollo de Sistemas en la Facultad de Tecnología Fatec Zona Leste y Licenciado en Ciencias de la Computación en la Universidad Anhembi Morumbi. ¡Actualmente estoy estudiando mi posgrado en Ciencia de Datos e Inteligencia Artificial en la Universidade Anhembi Morumbi!",
+    "about3": "Bueno, en cuanto a mi carrera profesional, soy desarrollador Fullstack en FI Group, trabajo con .Net, React JS, SQL Server y Azure, ¡pero mi mayor pasión es el desarrollo móvil! Llevo 2 años en el mercado, y durante mi trayectoria he trabajado mucho con desarrollo móvil usando React Native, y con desarrollo web frontend con React JS. Pero hoy, además de seguir trabajando con estas tecnologías, he estado estudiando mucho el lenguaje Swift.",
+    "about4": "Tengo algunas aplicaciones y sitios web propios y corporativos, desarrollados por mí, que ahora están disponibles en App Store y Play Store, ¡o en la web! Además de todo este vasto conocimiento en programación, me encanta desarrollar diseños de pantalla con Figma, utilizando conocimientos de UI/UX. Sin mencionar toda la experiencia que tengo con bases de datos relacionales y no relacionales.",
+    "about5": "Mi lengua materna es el portugués, sin embargo, hablo inglés a un nivel avanzado, español a un nivel intermedio e italiano a un nivel básico."
 }

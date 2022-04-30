@@ -1,0 +1,14 @@
+.about-container {
+    padding: 30px 30px 30px 50px;
+}
+
+.about-container h2 {
+    font-family: 'Lobster', cursive;
+    font-size: 35px;
+    margin-bottom: 20px;
+}
+
+.about-container p {
+    margin-top: 10px;
+    text-align: justify;
+}

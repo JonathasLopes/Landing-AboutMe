@@ -5,5 +5,11 @@
     "projects": "Projects",
     "certifications": "Certifications",
     "contact": "Contact",
-    "welcome": "<Welcome!>"
+    "welcome": "<Welcome!>",
+    "about-me": "About me...",
+    "about1": "Nice to meet you, my name is Jonathas, but you can call me Jhow!",
+    "about2": "I'm only 21 years old, but I'm already a technologist in Systems Analysis and Development at the Fatec Zona Leste Technology Faculty, and a Bachelor in Computer Science at the Anhembi Morumbi University. I am currently studying my postgraduate degree in Data Science and Artificial Intelligence at the Anhembi Morumbi University!",
+    "about3": "Well, as for my professional career, I'm a Fullstack developer at FI Group, working with .Net, React JS, SQL Server and Azure, but my biggest passion is with mobile development! I've been in the market for 2 years, and during my trajectory, I've worked a lot with mobile development using React Native, and with frontend web development with React JS. But today, in addition to continuing to work with these technologies, I have been studying the Swift language a lot.",
+    "about4": "I have some of my own and corporate apps and websites, developed by me, which are now available in the App Store and Play Store, or on the web! In addition to all this vast knowledge in programming, I love developing screen designs with Figma, using UI/UX knowledge. Not to mention all the experience I have with relational and non-relational databases.",
+    "about5": "My native language is Portuguese, however, I speak English at an advanced level, Spanish at an intermediate level and Italian at a basic level!"
 }
