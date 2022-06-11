@@ -3,4 +3,21 @@
     --color-white: #FFFFFF;
     --color-purple-dark: #8A13E8;
     --color-background-light: #211D1D;
+
+    --color-typescript: #007ACC;
+    --color-javascript: #F0DB4F;
+    --color-javascript-back: #323330;
+    --color-react: #61DBFB;
+    --color-node: #68A063;
+    --color-swift: #dd5f28;
+    --color-csharp: #823085;
+    --color-dotnet: #5C2D91;
+    --color-sqlserver: #F34F1C;
+    --color-mysql: #00758F;
+    --color-postgresql: #008bb9;
+    --color-mongodb: #4DB33D;
+    --color-html: #F06529;
+    --color-css: #2965F1;
+    --color-bootstrap: #563D7C;
+    --color-jquery: #131B28;
 }

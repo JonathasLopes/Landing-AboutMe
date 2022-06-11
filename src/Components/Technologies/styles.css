@@ -1,6 +1,120 @@
 .tech-container {
     background-color: var(--color-background-light);
-    height: 500px;
+    height: 350px;
     margin-top: -50px;
     z-index: 10;
+    padding-top: 20px;
+    margin-bottom: 50px;
+}
+
+.tech-container h2 {
+    font-family: 'Lobster', cursive;
+    font-size: 35px;
+    margin-bottom: 70px;
+    text-align: center;
+}
+
+.circle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 100%;
+    width: 80px;
+    height: 80px;
+}
+
+.typescript {
+    background-color: var(--color-typescript);
+}
+
+.javascript {
+    background-color: var(--color-javascript);
+}
+
+.react-dark {
+    background-color: var(--color-javascript-back);
+}
+
+.react-light {
+    background-color: var(--color-white);
+}
+
+.react-light svg {
+    color: var(--color-react);
+}
+
+.node {
+    background-color: var(--color-node);
+}
+
+.swift {
+    background-color: var(--color-swift);
+}
+
+.csharp {
+    background-color: var(--color-csharp);
+}
+
+.dotnet {
+    background-color: var(--color-dotnet);
+}
+
+.sqlserver {
+    background-color: var(--color-sqlserver);
+}
+
+.mysql {
+    background-color: var(--color-mysql);
+}
+
+.postgresql {
+    background-color: var(--color-postgresql);
+}
+
+.mongodb {
+    background-color: var(--color-mongodb);
+}
+
+.html {
+    background-color: var(--color-html);
+}
+
+.css {
+    background-color: var(--color-css);
+}
+
+.bootstrap {
+    background-color: var(--color-bootstrap);
+}
+
+.jquery {
+    background-color: var(--color-white);
+}
+
+.jquery svg path {
+    color: var(--color-jquery);
+}
+
+svg.icon {
+    width: 40px !important;
+    height: 40px !important;
+}
+
+.container-logo-dev {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container-logo-dev span {
+    margin-top: 10px;
+}
+
+.margin-sides {
+    margin: 0 20px !important;
+}
+
+.swiper {
+    width: 100%;
+    padding: 0 40px !important;
 }
