@@ -91,6 +91,10 @@
     background-color: var(--color-white);
 }
 
+.jquery svg {
+    color: var(--color-jquery);
+}
+
 .jquery svg path {
     color: var(--color-jquery);
 }

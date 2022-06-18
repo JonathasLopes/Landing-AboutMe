@@ -29,11 +29,11 @@ const Header = ({t}) => {
                         {t('technologies')}
                     </button>
                 </li>
-                <li className='list-buttons'>
+                {/* <li className='list-buttons'>
                     <button type="button" onClick={() => setSelected(3)} className={selected === 3 ? 'purple' : ''}>
                         {t('projects')}
                     </button>
-                </li>
+                </li> */}
                 <li className='list-buttons'>
                     <button type="button" onClick={() => setSelected(4)} className={selected === 4 ? 'purple' : ''}>
                         {t('certifications')}

@@ -7,6 +7,7 @@ import Technologies from '../../Components/Technologies';
 import './styles.css';
 
 import Design from '../../Assets/Images/design-1.png';
+import Certifications from '../../Components/Certifications';
 
 const Landing = () => {
     const { t } = useTranslation();
@@ -20,6 +21,7 @@ const Landing = () => {
                 <img src={Design} alt="design-1" />
             </div>
             <Technologies t={t} />
+            <Certifications t={t} />
         </div>
     );
 }

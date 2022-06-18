@@ -1,0 +1,49 @@
+.certi-container {
+    padding: 0 60px;
+    margin: 20px 0px 80px;
+}
+
+.certi-container h2 {
+    font-family: 'Lobster', cursive;
+    font-size: 35px;
+    margin-bottom: 40px;
+    text-align: left;
+}
+
+.cards-container {
+    display: grid;
+    gap: 50px;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.card-img {
+    background-color: var(--color-white);
+    width: 80px;
+    height: 80px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.card-certi {
+    align-items: center;
+    min-height: 100px;
+}
+
+.card-infos {
+    display: flex;
+    flex-direction: column;
+    margin-left: 15px;
+}
+
+.card-place {
+    font-weight: bold;
+    font-size: 16px;
+    margin: 10px 0;
+}
+
+.card-title {
+    font-size: 16px;
+}

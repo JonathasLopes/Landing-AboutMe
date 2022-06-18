@@ -15,5 +15,6 @@
     "graduate1": "Ciencias de la Computación",
     "graduate2": "Análisis y Desarrollo de Sistemas",
     "graduate3": "Ciencia de Datos e Inteligencia Artificial",
-    "inProgress": "En Proceso"
+    "inProgress": "En Proceso",
+    "completedIn": "completado el"
 }
