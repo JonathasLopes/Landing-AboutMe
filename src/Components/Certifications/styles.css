@@ -47,3 +47,7 @@
 .card-title {
     font-size: 16px;
 }
+
+.img-certification img {
+    width: 100% !important;
+}

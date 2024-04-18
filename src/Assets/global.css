@@ -27,3 +27,7 @@ button {
 .purple {
     color: var(--color-purple-dark);
 }
+
+.w-100 {
+    width: 100% !important;
+}

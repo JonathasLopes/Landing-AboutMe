@@ -1,0 +1,77 @@
+.contact-container {
+    background-color: var(--color-background-light);
+    margin-top: -10px;
+    z-index: 10;
+    padding-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.subdiv {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.subdiv h3 {
+    font-family: 'Lobster', cursive;
+    font-size: 30px;
+    margin-bottom: 20px;
+    margin-top: 30px;
+    text-align: center;
+}
+
+.subdiv form {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 70%;
+}
+
+.subdiv form input,
+.subdiv form textarea {
+    padding: 15px 15px;
+    width: 100%;
+    border-radius: 30px;
+    background: linear-gradient(#211D1D, #211D1D) padding-box, linear-gradient(to right, var(--color-purple-dark), rgba(138, 19, 232, 0.6)) border-box;
+    border: 5px solid transparent;
+    margin-top: 15px;
+    font-size: 16px;
+    color: var(--color-white);
+    outline: none;
+}
+
+.subdiv form textarea {
+    resize: none;
+}
+
+.subdiv form label {
+    position: absolute;
+    bottom: 10px;
+    left: 0px;
+    pointer-events: none;
+    font-size: 16px;
+}
+
+.position-relative {
+    position: relative;
+}
+
+.content-name {
+    position: absolute;
+    bottom: 10px;
+    left: 0px;
+    padding-left: 20px;
+    transition: all 0.5s ease;
+    color: var(--color-white);
+}
+
+.subdiv form input:focus + .label-name .content-name,
+.subdiv form input:active + .label-name .content-name {
+    bottom: 55px;
+    font-size: 14px;
+    left: 0px;
+    color: var(--color-purple-dark);
+}

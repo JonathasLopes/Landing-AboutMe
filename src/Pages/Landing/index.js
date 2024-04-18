@@ -8,6 +8,7 @@ import './styles.css';
 
 import Design from '../../Assets/Images/design-1.png';
 import Certifications from '../../Components/Certifications';
+import Contact from '../../Components/Contact';
 
 const Landing = () => {
     const { t } = useTranslation();
@@ -22,6 +23,7 @@ const Landing = () => {
             </div>
             <Technologies t={t} />
             <Certifications t={t} />
+            <Contact t={t} />
         </div>
     );
 }

@@ -10,7 +10,7 @@ const Certifications = ({ t }) => {
                 {CertificationsList.map((certification, index) => {
                     return (
                         <div key={index} className='card card-certi'>
-                            <div className='card-img'>
+                            <div className='card-img img-certification'>
                                 <img src={certification.logo} alt="img-certification" />
                             </div>
                             <div className='card-infos'>

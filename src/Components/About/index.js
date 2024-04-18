@@ -14,7 +14,7 @@ const About = ({ t }) => {
             <p>{t("about3")}</p>
             <p>{t("about4")}</p>
             <p>{t("about5")}</p>
-            <h2 className='h2-second'>Formação</h2>
+            <h2 className='h2-second'>{t('graduate')}</h2>
             <div className='card-container'>
                 <div className='card'>
                     <img src={LogoWhite} alt="logo" />
@@ -37,7 +37,7 @@ const About = ({ t }) => {
                     <div className='infos-card'>
                         <span className='title-card'>{t("graduate3")}</span>
                         <span className='subtitle-card'>Universidade Anhembi Morumbi</span>
-                        <span className='year-card'>{t("inProgress")} - 2023</span>
+                        <span className='year-card'>2023</span>
                     </div>
                 </div>
             </div>
