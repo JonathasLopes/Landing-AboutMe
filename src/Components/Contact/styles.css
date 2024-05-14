@@ -27,7 +27,7 @@
     display: flex;
     align-items: center;
     flex-direction: column;
-    width: 70%;
+    width: 100%;
 }
 
 .subdiv form input,
@@ -55,23 +55,56 @@
     font-size: 16px;
 }
 
-.position-relative {
-    position: relative;
+.subdiv:first-child {
+    margin-left: -200px !important;
 }
 
-.content-name {
-    position: absolute;
-    bottom: 10px;
-    left: 0px;
-    padding-left: 20px;
-    transition: all 0.5s ease;
+.border-img {
+    border: 1px solid var(--color-purple-dark);
+    border-radius: 100%;
+    width: 540px;
+    height: 540px;
+    overflow: hidden;
+}
+
+.img-jonathas {
+    width: 550px;
+    height: 550px;
+}
+
+.triangles-jonathas {
+    margin: 20px 0px;
+    width: 250px;
+}
+
+.btn-send {
+    background-color: var(--color-purple-dark);
     color: var(--color-white);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 60px;
+    border-radius: 10px;
+    margin-top: 20px;
+    font-size: 17px;
 }
 
-.subdiv form input:focus + .label-name .content-name,
-.subdiv form input:active + .label-name .content-name {
-    bottom: 55px;
-    font-size: 14px;
-    left: 0px;
-    color: var(--color-purple-dark);
+.btn-send:active {
+    background-color: var(--color-purple-darkest);
+}
+
+.container-contact-triangles {
+    display: flex;
+    align-items: center;
+    margin-right: -200px;
+}
+
+.triangles-vertical {
+    width: 250px;
+    transform: rotate(-90deg);
+}
+
+.subdiv-container-form {
+    width: 600px;
+    margin-right: -80px;
 }

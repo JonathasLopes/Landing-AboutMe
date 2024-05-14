@@ -1,0 +1,27 @@
+.footer-container {
+    background-color: var(--color-background-light);
+    width: 100% !important;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 30px;
+}
+
+.background-deg {
+    width: 100% !important;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(180deg, rgba(33,29,29,1) 0%, rgba(28,25,25,1) 41%, rgba(0,0,0,1) 100%);
+}
+
+.footer-links a img {
+    width: 50px;
+    margin-right: 10px;
+}
+
+.copyright {
+    margin: 20px 0px;
+}

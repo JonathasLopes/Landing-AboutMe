@@ -9,6 +9,7 @@ import './styles.css';
 import Design from '../../Assets/Images/design-1.png';
 import Certifications from '../../Components/Certifications';
 import Contact from '../../Components/Contact';
+import Footer from '../../Components/Footer';
 
 const Landing = () => {
     const { t } = useTranslation();
@@ -24,6 +25,7 @@ const Landing = () => {
             <Technologies t={t} />
             <Certifications t={t} />
             <Contact t={t} />
+            <Footer />
         </div>
     );
 }

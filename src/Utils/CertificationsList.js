@@ -18,16 +18,16 @@ export const CertificationsList = [
         year: '06/2020',
     },
     {
-        logo: require('../Assets/Images/cambridge.png'),
-        title: 'FCE B2',
-        place: 'Cambridge',
-        year: 'xx/2022',
-    },
-    {
         logo: require('../Assets/Images/cna.png'),
         title: 'English Course',
         place: 'CNA',
-        year: 'xx/2022',
+        year: '06/2021',
+    },
+    {
+        logo: require('../Assets/Images/cambridge.png'),
+        title: 'FCE B2',
+        place: 'Cambridge',
+        year: '01/2022',
     },
     {
         logo: require('../Assets/Images/udemy.png'),
@@ -40,5 +40,11 @@ export const CertificationsList = [
         title: 'C#',
         place: 'Udemy',
         year: '11/2022',
+    },
+    {
+        logo: require('../Assets/Images/backfront.png'),
+        title: 'Swift Descomplicado',
+        place: 'Backfront Academy',
+        year: '05/2023',
     }
 ];
