@@ -1,8 +1,11 @@
-import React from 'react';
 import { CertificationsList } from '../../Utils/CertificationsList';
 import './styles.css';
 
-const Certifications = ({ t }) => {
+interface ICertificationsProps {
+    t: (text: string) => any
+}
+
+const Certifications = ({ t }: ICertificationsProps) => {
     return (
         <div className='certi-container'>
             <h2>{t("certifications")}</h2>

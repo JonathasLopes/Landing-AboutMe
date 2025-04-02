@@ -1,13 +1,15 @@
-import React from 'react';
-import './styles.css';
-
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Navigation } from "swiper";
+import { TechLanguages } from '../../Utils/TechLanguages';
 import "swiper/css";
 import "swiper/css/navigation";
-import { TechLanguages } from '../../Utils/TechLanguages';
+import './styles.css';
 
-const Technologies = ({ t }) => {
+interface ITechnologiesProps {
+    t: (text: string) => any
+}
+
+const Technologies = ({ t }: ITechnologiesProps) => {
     return (
         <div className='tech-container'>
             <h2>{t("technologies")}</h2>

@@ -1,15 +1,13 @@
-import React from 'react';
 import { useTranslation } from 'react-i18next';
 import About from '../../Components/About';
 import Header from '../../Components/Header';
 import Welcome from '../../Components/Welcome';
 import Technologies from '../../Components/Technologies';
-import './styles.css';
-
 import Design from '../../Assets/Images/design-1.png';
 import Certifications from '../../Components/Certifications';
 import Contact from '../../Components/Contact';
 import Footer from '../../Components/Footer';
+import './styles.css';
 
 const Landing = () => {
     const { t } = useTranslation();

@@ -1,9 +1,12 @@
-import React from 'react';
 import jonathasIMG from '../../Assets/Images/jonathas.svg';
 import triangles from '../../Assets/Images/triangles.svg';
 import './styles.css';
 
-const Contact = ({ t }) => {
+interface IContactProps {
+    t: (text: string) => any
+}
+
+const Contact = ({ t }: IContactProps) => {
     return (
         <div className='contact-container'>
             <div className='subdiv'>

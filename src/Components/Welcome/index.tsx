@@ -1,8 +1,11 @@
-import React from 'react';
 import LogoJhow from '../../Assets/Images/img-2.png';
 import './styles.css';
 
-const Welcome = ({t}) => {
+interface IWelcomeProps {
+    t: (text: string) => any
+}
+
+const Welcome = ({t}: IWelcomeProps) => {
     return (
         <div className='welcome-container'>
             <div className='logo-jhow-container'>

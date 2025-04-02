@@ -1,9 +1,13 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import './styles.css';
 import imageLogo from '../../Assets/Images/img-1.png';
 import CountryPicker from '../CountryPicker';
 
-const Header = ({t}) => {
+interface IHeaderProps {
+    t: (text: string) => any
+}
+
+const Header = ({t}: IHeaderProps) => {
     const [selected, setSelected] = useState(0);
 
     return (

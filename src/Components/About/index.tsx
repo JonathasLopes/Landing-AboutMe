@@ -1,11 +1,13 @@
-import React from 'react';
-import './styles.css';
-
 import LogoGreen from '../../Assets/Images/Anhembi-green.png';
 import LogoWhite from '../../Assets/Images/anhembi-white.png';
 import LogoFatec from '../../Assets/Images/fatec.png';
+import './styles.css';
 
-const About = ({ t }) => {
+interface IAboutProps {
+    t: (text: string) => any
+}
+
+const About = ({ t }: IAboutProps) => {
     return (
         <div className='about-container'>
             <h2>{t("about-me")}</h2>
