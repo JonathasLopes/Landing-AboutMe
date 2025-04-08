@@ -1,22 +1,25 @@
 import LogoGreen from '../../Assets/Images/Anhembi-green.png';
 import LogoWhite from '../../Assets/Images/anhembi-white.png';
 import LogoFatec from '../../Assets/Images/fatec.png';
+import { GetAge } from '../../Helpers/GetAge';
 import './styles.css';
 
 interface IAboutProps {
-    t: (text: string) => any
+    t: (text: string, variables?: any) => any
 }
 
 const About = ({ t }: IAboutProps) => {
+    const age = GetAge(2000);
+
     return (
-        <div className='about-container'>
+        <div id="about" className='about-container'>
             <h2>{t("about-me")}</h2>
             <p>{t("about1")}</p>
-            <p>{t("about2")}</p>
+            <p>{t("about2", { age })}</p>
             <p>{t("about3")}</p>
             <p>{t("about4")}</p>
             <p>{t("about5")}</p>
-            <h2 className='h2-second'>{t('graduate')}</h2>
+            <h2 id="graduate" className='h2-second'>{t('graduate')}</h2>
             <div className='card-container'>
                 <div className='card'>
                     <img src={LogoWhite} alt="logo" />

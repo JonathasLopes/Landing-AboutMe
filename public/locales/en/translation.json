@@ -8,13 +8,18 @@
     "welcome": "<Welcome!>",
     "about-me": "About me...",
     "about1": "Nice to meet you, my name is Jonathas, but you can call me Jhow!",
-    "about2": "I'm only 25 years old, but I'm already a technologist in Systems Analysis and Development at the Faculty of Technology Fatec Zona Leste, a Bachelor's degree in Computer Science from Universidade Anhembi Morumbi and a Postgraduate in Artificial Intelligence and Data Sciences from Anhmebi Morumbi!",
+    "about2": "I'm only {{age}} years old, but I'm already a technologist in Systems Analysis and Development at the Faculty of Technology Fatec Zona Leste, a Bachelor's degree in Computer Science from Universidade Anhembi Morumbi and a Postgraduate in Artificial Intelligence and Data Sciences from Anhmebi Morumbi!",
     "about3": "Well, as for my professional career, I'm a Fullstack developer at FI Group, I work with .Net, React JS, SQL Server and Azure, but my biggest passion is with mobile development! I've been in the market for 4 years, and during my career, I've worked a lot with web development using React Js and .Net core. But, today, in addition to continuing to work with this technology, I have been studying the Swift and React Native languages ​​a lot.",
     "about4": "I have some own and corporate applications and websites, developed by me, which are currently available in the App Store and Play Store, or on the web! In addition to all this vast knowledge in programming, I love developing screen designs with Figma, using UI/UX knowledge. Not to mention all the experience I have with relational and non-relational Databases.",
-    "about5": "My native language is Portuguese, however, I speak English at an advanced level and Spanish at an intermediate level!",
+    "about5": "My native language is Portuguese, however, I speak English at an advanced level and Spanish at an advanced level!",
     "graduate1": "Graduate in Computer Science",
     "graduate2": "Technologist in Analysis and Systems Development",
     "graduate3": "Postgraduate in Data Science and Artificial Intelligence",
     "inProgress": "In Progress",
-    "completedIn": "completed on"
+    "completedIn": "completed on",
+    "inContact": "Contact Me!",
+    "name": "name",
+    "email": "e-mail",
+    "message": "message",
+    "send": "Send"
 }

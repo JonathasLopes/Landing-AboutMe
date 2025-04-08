@@ -1,8 +1,7 @@
 import { Swiper, SwiperSlide } from "swiper/react";
-import { Navigation } from "swiper";
+import { Autoplay } from 'swiper';
 import { TechLanguages } from '../../Utils/TechLanguages';
 import "swiper/css";
-import "swiper/css/navigation";
 import './styles.css';
 
 interface ITechnologiesProps {
@@ -11,16 +10,20 @@ interface ITechnologiesProps {
 
 const Technologies = ({ t }: ITechnologiesProps) => {
     return (
-        <div className='tech-container'>
+        <div id="technologies" className='tech-container'>
             <h2>{t("technologies")}</h2>
             <Swiper
-                slidesPerView={10}
-                spaceBetween={10}
-                parallax={true}
+                modules={[Autoplay]}
                 loop={true}
-                navigation={true}
-                modules={[Navigation]}
-                className="mySwiper"
+                autoplay={{
+                    delay: 0,
+                    disableOnInteraction: false,
+                }}
+                speed={1000}
+                spaceBetween={30}
+                allowTouchMove={true}
+                grabCursor={false}
+                slidesPerView={'auto'} 
             >
                 {TechLanguages.map((language, index) => {
                     return (

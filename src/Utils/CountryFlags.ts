@@ -1,7 +1,7 @@
 export const CountryFlags = [
     {
         value: '/br',
-        label: require('../Assets/Images/portugal.png')
+        label: require('../Assets/Images/brasil.png')
     },
     {
         value: '/en',

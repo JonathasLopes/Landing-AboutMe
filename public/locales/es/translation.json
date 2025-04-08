@@ -8,13 +8,18 @@
     "welcome": "<Sea Bienvenido!>",
     "about-me": "Sobre mi...",
     "about1": "Encantado de conocerte, mi nombre es Jonathas, ¡pero puedes llamarme Jhow!",
-    "about2": "Solo tengo 25 años, pero ya soy tecnólogo en Análisis y Desarrollo de Sistemas en la Facultad de Tecnología Fatec Zona Leste, Licenciado en Informática por la Universidad Anhembi Morumbi y Postgrado en Inteligencia Artificial y Ciencias de Datos por Anhmebi. ¡Morumbí!",
+    "about2": "Solo tengo {{age}} años, pero ya soy tecnólogo en Análisis y Desarrollo de Sistemas en la Facultad de Tecnología Fatec Zona Leste, Licenciado en Informática por la Universidad Anhembi Morumbi y Postgrado en Inteligencia Artificial y Ciencias de Datos por Anhmebi. ¡Morumbí!",
     "about3": "Bueno, en cuanto a mi carrera profesional, soy desarrollador Fullstack en FI Group, trabajo con .Net, React JS, SQL Server y Azure, ¡pero mi mayor pasión es el desarrollo móvil! Llevo 4 años en el mercado y durante mi carrera he trabajado mucho en el desarrollo web utilizando React Js y .Net core. Pero, hoy en día, además de seguir trabajando con esta tecnología, he estado estudiando mucho los lenguajes Swift y React Native.",
     "about4": "Tengo algunas aplicaciones y sitios web propios y corporativos, desarrollados por mí, que actualmente están disponibles en App Store y Play Store, ¡o en la web! Además de todo este vasto conocimiento en programación, me encanta desarrollar diseños de pantallas con Figma, utilizando conocimientos de UI/UX. Sin mencionar toda la experiencia que tengo con Bases de Datos relacionales y no relacionales.",
-    "about5": "Mi idioma nativo es el portugués, sin embargo, hablo inglés a nivel avanzado y español a nivel intermedio.",
+    "about5": "Mi idioma nativo es el portugués, sin embargo, hablo inglés a nivel avanzado y español a nivel avanzado.",
     "graduate1": "Graduación en Ciencias de la Computación",
     "graduate2": "Tecnólogo en Análisis y Desarrollo de Sistemas",
     "graduate3": "Posgraduación en Ciencia de Datos e Inteligencia Artificial",
     "inProgress": "En Proceso",
-    "completedIn": "completado el"
+    "completedIn": "completado el",
+    "inContact": "Contactame!",
+    "name": "nombre",
+    "email": "correo electrónico",
+    "message": "mensaje",
+    "send": "Enviar"
 }

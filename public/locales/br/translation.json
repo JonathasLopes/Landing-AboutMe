@@ -8,13 +8,18 @@
     "welcome": "<Seja Bem-Vindo!>",
     "about-me": "Sobre mim...",
     "about1": "Prazer, me chamo Jonathas, mas podem me chamar de Jhow!",
-    "about2": "Tenho apenas 25 anos de idade, porém já sou tecnólogo em Análise e Desenvolvimento de Sistemas pela Faculdade de Tecnologia Fatec Zona Leste, Bacharéu em Ciências da Computação pela Universidade Anhembi Morumbi e Pós graduado em Inteligência Artificial e Ciências de Dados pela Anhmebi Morumbi!",
+    "about2": "Tenho apenas {{age}} anos de idade, porém já sou tecnólogo em Análise e Desenvolvimento de Sistemas pela Faculdade de Tecnologia Fatec Zona Leste, Bacharéu em Ciências da Computação pela Universidade Anhembi Morumbi e Pós graduado em Inteligência Artificial e Ciências de Dados pela Anhmebi Morumbi!",
     "about3": "Bom, quanto a minha carreira profissional, eu sou desenvolvedor Fullstack na FI Group, trabalho com .Net, React JS, SQL Server e Azure, porém minha paixão maior é com desenvolvimento mobile! Estou no mercado a 4 anos, e durante esta minha trajetória, trabalhei muito com desenvolvimento web utilizando React Js e .Net core. Mas, hoje além de continuar trabalhando com esta tecnologia, venho estudando muito as linguagens Swift e React Native.",
     "about4": "Tenho alguns aplicativos e sites próprios e corporativos, desenvolvidos por mim, que hoje, estão nas lojas App Store e Play Store, ou na web! Além de todo este vasto conhecimento em programação, amo desenvolver designs de telas com o Figma, utilizando de conhecimentos UI/UX. Sem falar de toda a experiência que tenho com Banco de Dados relacionais e não relacionais.",
-    "about5": "Minha língua nativa é o português, porém, falo inglês em nível avançado e espanhol em nível intermedário!",
+    "about5": "Minha língua nativa é o português, porém, falo inglês em nível avançado e espanhol em nível avançado!",
     "graduate1": "Graduação em Ciências da Computação",
     "graduate2": "Tecnólogo em Análise e Desenvolvimento de Sistemas",
     "graduate3": "Pós Graduação em Ciências de Dados e Inteligência Artificial",
     "inProgress": "Em Andamento",
-    "completedIn": "Concluído em"
+    "completedIn": "Concluído em",
+    "inContact": "Entre em Contato!",
+    "name": "nome",
+    "email": "email",
+    "message": "mensagem",
+    "send": "Enviar"
 }

@@ -5,17 +5,10 @@
     padding-top: 20px;
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
 }
 
-.subdiv {
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-.subdiv h3 {
+.subdiv-container-form h3 {
     font-family: 'Lobster', cursive;
     font-size: 30px;
     margin-bottom: 20px;
@@ -23,58 +16,36 @@
     text-align: center;
 }
 
-.subdiv form {
+.subdiv-container-form form {
     display: flex;
     align-items: center;
     flex-direction: column;
     width: 100%;
 }
 
-.subdiv form input,
-.subdiv form textarea {
+.subdiv-container-form form input,
+.subdiv-container-form form textarea {
     padding: 15px 15px;
     width: 100%;
-    border-radius: 30px;
+    border-radius: 10px;
     background: linear-gradient(#211D1D, #211D1D) padding-box, linear-gradient(to right, var(--color-purple-dark), rgba(138, 19, 232, 0.6)) border-box;
-    border: 5px solid transparent;
+    border: 2px solid transparent;
     margin-top: 15px;
     font-size: 16px;
     color: var(--color-white);
     outline: none;
 }
 
-.subdiv form textarea {
+.subdiv-container-form form textarea {
     resize: none;
 }
 
-.subdiv form label {
+.subdiv-container-form form label {
     position: absolute;
     bottom: 10px;
     left: 0px;
     pointer-events: none;
     font-size: 16px;
-}
-
-.subdiv:first-child {
-    margin-left: -200px !important;
-}
-
-.border-img {
-    border: 1px solid var(--color-purple-dark);
-    border-radius: 100%;
-    width: 540px;
-    height: 540px;
-    overflow: hidden;
-}
-
-.img-jonathas {
-    width: 550px;
-    height: 550px;
-}
-
-.triangles-jonathas {
-    margin: 20px 0px;
-    width: 250px;
 }
 
 .btn-send {
@@ -87,6 +58,7 @@
     border-radius: 10px;
     margin-top: 20px;
     font-size: 17px;
+    min-width: 60%;
 }
 
 .btn-send:active {
@@ -96,15 +68,12 @@
 .container-contact-triangles {
     display: flex;
     align-items: center;
-    margin-right: -200px;
 }
 
 .triangles-vertical {
-    width: 250px;
     transform: rotate(-90deg);
 }
 
 .subdiv-container-form {
     width: 600px;
-    margin-right: -80px;
 }

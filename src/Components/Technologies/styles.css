@@ -114,11 +114,6 @@ svg.icon {
     margin-top: 10px;
 }
 
-.margin-sides {
-    margin: 0 20px !important;
-}
-
-.swiper {
-    width: 100%;
-    padding: 0 40px !important;
+.swiper-slide {
+    width: auto !important;
 }

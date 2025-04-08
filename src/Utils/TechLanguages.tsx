@@ -13,7 +13,9 @@ import {
     SiHtml5,
     SiCss3,
     SiBootstrap,
-    SiJquery
+    SiJquery,
+    SiNextdotjs,
+    SiTailwindcss
 } from 'react-icons/si';
 
 export const TechLanguages = [
@@ -26,6 +28,11 @@ export const TechLanguages = [
         title: 'Javascript',
         logo: <SiJavascript className='icon' />,
         class: 'javascript'
+    },
+    {
+        title: 'Next JS',
+        logo: <SiNextdotjs className='icon' />,
+        class: 'react-dark'
     },
     {
         title: 'React JS',
@@ -85,6 +92,11 @@ export const TechLanguages = [
     {
         title: 'CSS',
         logo: <SiCss3 className='icon' />,
+        class: 'css'
+    },
+    {
+        title: 'Tailwind',
+        logo: <SiTailwindcss className='icon' />,
         class: 'css'
     },
     {

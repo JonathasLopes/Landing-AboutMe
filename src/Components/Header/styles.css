@@ -29,15 +29,18 @@
     font-size: 14px;
 }
 
-.list-buttons button {
+.list-buttons a {
     display: flex;
+    text-decoration: none;
     align-items: center;
+    color: #FFF;
+    font-weight: 500;
     background: none;
     font-size: 14px;
     transition: color 0.3s ease-out;
 }
 
-.list-buttons button:hover {
+.list-buttons a:hover {
     color: var(--color-purple-dark);
 }
 
@@ -51,13 +54,14 @@
     align-items: center;
 }
 
-.country-contact-container button {
+.country-contact-container .nav-button a {
     background: linear-gradient(93.4deg, #8A13E8 0%, #8A00BB 100%);
     border-radius: 10px;
     display: flex;
     align-items: center;
     justify-content: center;
     border: none;
+    text-decoration: none;
     color: var(--color-white);
     padding: 10px 30px;
     font-weight: bold;

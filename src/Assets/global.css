@@ -25,7 +25,7 @@ button {
 }
 
 .purple {
-    color: var(--color-purple-dark);
+    color: var(--color-purple-dark) !important;
 }
 
 .w-100 {

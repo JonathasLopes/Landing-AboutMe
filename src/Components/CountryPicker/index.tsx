@@ -14,7 +14,7 @@ const CountryPicker = () => {
 
             {show &&
                 <div className="select">
-                    {CountryFlags.map((country, index) => {
+                    {CountryFlags.filter(x => x.value !== url).map((country, index) => {
                         return (
                             <a className='option' key={index} href={country.value}>
                                 <img src={country.label} alt={country.value} className="img-country" />

@@ -7,7 +7,7 @@ interface ICertificationsProps {
 
 const Certifications = ({ t }: ICertificationsProps) => {
     return (
-        <div className='certi-container'>
+        <div id="certifications" className='certi-container'>
             <h2>{t("certifications")}</h2>
             <div className='cards-container'>
                 {CertificationsList.map((certification, index) => {
